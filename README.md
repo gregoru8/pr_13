@@ -20,6 +20,7 @@
 ![image](https://github.com/user-attachments/assets/5659af95-4801-47df-83ce-13865a63c507)
 ### Запрос с подзапросом
 ![image](https://github.com/user-attachments/assets/239a7412-989c-4042-a437-c373aef328e6)
+## Также применим "explain (analyze, costs, verbose, buffers, format json)" ко всем функциям (результаты прикреплены к репризеторию). Можно заметить, что функция GROUP BY выпоняется почти мгновенно, в то время как JOIN заниает более 100 мс. Для запроса с подзапросом же, затраны на основную и вложенную части примерно одинаковы
 ## 7. Сравним результаты, полученные локально с результатами с сайта
 ### результаты с сайта:
 ![image](https://github.com/user-attachments/assets/24c8db08-f5b5-4a6f-846a-775285f778d5)
